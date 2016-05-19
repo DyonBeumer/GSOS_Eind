@@ -1,3 +1,5 @@
+Controller\MainController.class
 nl\hu\fnt\gsos\rest\RestController.class
 nl\hu\fnt\gsos\rest\Track.class
+Application\Main.class
 nl\hu\fnt\gsos\rest\TrackService.class
