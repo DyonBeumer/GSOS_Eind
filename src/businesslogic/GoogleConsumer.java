@@ -1,4 +1,4 @@
-package businesslogic;
+package src.businesslogic;
 
 import java.net.URL;
 
@@ -7,11 +7,10 @@ public class GoogleConsumer {
         private static String key = "AIzaSyAZm3KQ8kbZkw2Cu6TYovuMx9_G4wXcVco";
 
 
-        public String aquireGeometry(String adress){
+        public static JSON aquireGeometry(String adress){
 
-            return "";
-
-
+            tempurl = url + "address="+location + "&key="+key;
+            URL test = new URL(tempurl);
 
         }
 
