@@ -1,4 +1,6 @@
-package businesslogic;
+package src.businesslogic;
+
+import java.net.URL;
 
 public class GoogleConsumer {
         private static String url = "maps.googleapis.com/maps/api/geocode/json?";

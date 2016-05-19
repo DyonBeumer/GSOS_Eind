@@ -1,10 +1,10 @@
-package businesslogic;
+package src.businesslogic;
 
 public class BusinessLogic{
 
     public String ProcessLocation(String location){
         //Send to google
-        GoogleConsumer.class.
+        businesslogic.GoogleConsumer.class.
 
         //Send to weatherapi
 
