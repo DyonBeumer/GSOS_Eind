@@ -14,13 +14,13 @@ import javax.ws.rs.core.MediaType;
 
 @Path("/")
 public class RestController {
-public static TrackService tf = new TrackService();
+public static src.businesslogic.BusinessLogicController b = new src.businesslogic.BusinessLogicController();
 	@GET
 	@Path("{stad}")
 	@Produces({MediaType.APPLICATION_JSON})
-	public String getTracks(@PathParam) {
-		 
-	return tf.getTracklist();
+	public String getTracks(@PathParam("stad") String stad) {
+		b
+
 
      }
 }

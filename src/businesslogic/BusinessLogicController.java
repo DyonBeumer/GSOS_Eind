@@ -1,6 +1,6 @@
 package src.businesslogic;
 
-public class BusinessLogic{
+public class BusinessLogicController{
 
     public String ProcessLocation(String location){
         //Send to google
