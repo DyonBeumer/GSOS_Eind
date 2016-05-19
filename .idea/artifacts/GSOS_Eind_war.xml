@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="GSOS_Eind:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="les-8-rest.war">
+      <element id="artifact" artifact-name="GSOS_Eind:war exploded" />
+    </root>
+  </artifact>
+</component>

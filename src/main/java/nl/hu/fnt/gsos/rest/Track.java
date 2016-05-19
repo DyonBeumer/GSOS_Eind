@@ -19,7 +19,7 @@ public class Track
 	}
 
 	public Track(String naam) {
-		super();
+
 		this.naam = naam;
 	}
 }
