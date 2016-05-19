@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Gsos_eind.iml" filepath="$PROJECT_DIR$/Gsos_eind.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/GSOS_Eind.iml" filepath="$PROJECT_DIR$/.idea/GSOS_Eind.iml" />
     </modules>
   </component>
 </project>
