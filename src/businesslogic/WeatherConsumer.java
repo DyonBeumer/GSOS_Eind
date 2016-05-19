@@ -11,6 +11,6 @@ public class WeatherConsumer {
 
         String tempurl = url + "lat=" + lat + "&lon=" + lon;
         URL test = new URL(tempurl);
-
+//
     }
 }
