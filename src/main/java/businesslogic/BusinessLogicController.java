@@ -1,4 +1,4 @@
-package src.businesslogic;
+package businesslogic;
 
 public class BusinessLogicController{
 
