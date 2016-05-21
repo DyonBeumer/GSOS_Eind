@@ -2,3 +2,4 @@ Controller\MainController.class
 nl\hu\fnt\gsos\rest\RestController.class
 Application\Main.class
 businesslogic\BusinessLogicController.class
+businesslogic\GoogleConsumer.class
