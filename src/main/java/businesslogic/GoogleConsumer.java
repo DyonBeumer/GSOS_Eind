@@ -17,8 +17,9 @@ public class GoogleConsumer {
     private static String key = "AIzaSyAZm3KQ8kbZkw2Cu6TYovuMx9_G4wXcVco";
 
 
-    public static String aquireGeometry(String adress) throws IOException, JSONException {
+    public static int aquireGeometry(String adress) throws IOException, JSONException {
         String latlongurl = url + "address=" + adress + "&key="+key;
+        int postal=0;
 
         System.out.println(latlongurl);
         CloseableHttpClient httpclient = HttpClients.createDefault();
@@ -52,9 +53,9 @@ public class GoogleConsumer {
 
                 JSONObject obj1 = new JSONObject(content1);
                 JSONArray result1 = obj1.getJSONArray("results");
-                int postal = Integer.parseInt((String)result1.getJSONObject(0).getJSONArray("address_components").getJSONObject(7).get("short_name"));
-                System.out.println(postal);
+                postal = Integer.parseInt((String)result1.getJSONObject(0).getJSONArray("address_components").getJSONObject(7).get("short_name"));
                 EntityUtils.consume(entity1);
+
             }
             finally {
                 response2.close();
@@ -69,7 +70,7 @@ public class GoogleConsumer {
         finally {
             response1.close();
         }
-        return "ARJANISGAY";
+        return postal;
     }
 
 
